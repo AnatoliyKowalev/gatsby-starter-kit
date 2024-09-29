@@ -1,0 +1,43 @@
+{
+  "name": "gatsby-starter-kit",
+  "version": "0.1.0",
+  "author": "Anatoly",
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^16.6.10",
+    "bootstrap": "^5.3.3",
+    "classnames": "^2.5.1",
+    "css-loader": "^7.1.2",
+    "dotenv": "^16.4.5",
+    "gatsby": "^5.13.7",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-preconnect": "^1.4.0",
+    "gatsby-plugin-robots-txt": "^1.8.0",
+    "gatsby-plugin-sass": "^6.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-plugin-sitemap": "^6.13.1",
+    "gatsby-source-contentful": "^8.13.2",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-inline-svg": "^1.2.0",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "node-sass": "^9.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "sass": "^1.79.4",
+    "style-loader": "^4.0.0",
+    "tsconfig-paths-webpack-plugin": "^4.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "typescript": "^5.5.4"
+  },
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby clean && gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby clean && gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  }
+}
